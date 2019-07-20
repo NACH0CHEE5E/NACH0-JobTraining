@@ -1,0 +1,35 @@
+[
+  {
+    "name": "NACH0.JobTraining",
+    "version": "1.0.0",
+    "namepretty": "NACH0's Job Training",
+    "enabled": true,
+    "marksgamemodded": true,
+	"dllpath": "JobTraining.dll",
+    "compatibleversions": [
+      "0.7.0"
+    ],
+    "jsonFiles": [
+      {
+        "relativePath": "gamedata/Locale/en-US/en-US.json",
+        "fileType": "addOrOverrideLocalization",
+        "index": 10000
+      },
+      {
+        "fileType": "addOrOverrideScience",
+        "index": 10000,
+        "relativePath": "gamedata/research/Override.json"
+      }
+    ],
+    "patchnotes": [
+      {
+        "version": "1.0.0",
+        "notes": [
+          "Initial Release",
+          "*If you find any issues or have suggestions join the discord",
+          "*discord.gg/tqFhxhm"
+        ]
+      }
+    ]
+  }
+]
